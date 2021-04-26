@@ -52,7 +52,7 @@
 				</ul>
 			</article>
 			<article>
-				<h2><strong>Generation 3:</strong><i class="fa fa-folder-open"></i></h2>
+				<h2><strong>Generation 3: </strong><i class="fa fa-folder-open"></i></h2>
 				<h4 style="text-indent: 20px;">Design Documentation:</h4>
 				<ul style="text-indent: 70px; list-style: none;">
 					<li><a href="https://drive.google.com/file/d/11wscCVs31OeMOzJDLeybZ_yyhtUfegcd/view?usp=sharing" target="_blank">ADS Bias Configuration</a></li>
@@ -86,10 +86,143 @@
 					<li><a href="https://drive.google.com/drive/folders/1jik86XsLCWG4p4JwYf4FbIHq4MCuD6WT?usp=sharing" target="_blank">Altium_Rules_Upload</a></li>
 				</ul>
 				<br><br>
-				<h4 style="text-indent: 20px;">Altium Project File::</h4>
+				<h4 style="text-indent: 20px;">Altium Project File:</h4>
 				<ul style="text-indent: 70px; list-style: none;">
 					<li><a href="https://drive.google.com/drive/folders/1Pl_s_Zn2eH2Xom-TrXRkkKNtcthC7kIJ?usp=sharing" target="_blank">Generation_3_Altium</a></li>
 				</ul>
+			</article>
+			
+			<article>
+				<h2 style="text-align: center;"> <strong>Complications:</strong> </h2>
+				<!-- Container for the image gallery -->
+				<div class="container">
+
+				  <!-- Full-width images with number text -->
+				  <div class="mySlides">
+				    <div class="numbertext">1 / 10</div>
+						<img src="img/before_pcb.jpg" style="width:100%">			      
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">2 / 10</div>
+				      <img src="img/USB_LED_mistake.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">3 / 10</div>
+				      <img src="img/USB_mistake_after.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">4 / 10</div>
+				      <img src="img/LED_mistake_after.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">5 / 10</div>
+				      <img src="img/X1_mistake.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">6 / 10</div>
+				      <img src="img/X1_mistake_after.jpg" style="width:100%">
+				  </div>
+
+  				  <div class="mySlides">
+				    <div class="numbertext">7 / 10</div>
+				      <img src="img/inside_traces_after.jpg" style="width:100%">
+				  </div>
+
+  				  <div class="mySlides">
+				    <div class="numbertext">8 / 10</div>
+				      <img src="img/inside_traces_2_after.jpg" style="width:100%">
+				  </div>
+
+  				  <div class="mySlides">
+				    <div class="numbertext">9 / 10</div>
+				      <img src="img/U11_mistake.jpg" style="width:100%">
+				  </div>
+
+  				  <div class="mySlides">
+				    <div class="numbertext">10 / 10</div>
+				      <img src="img/U11_mistake_after.jpg" style="width:100%">
+				  </div>
+
+				  <!-- Next and previous buttons -->
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				  <!-- Image text -->
+				  <div class="caption-container">
+				    <p id="caption"></p>
+				  </div>
+
+				  <!-- Thumbnail images -->
+				  <div class="row">
+				    <div class="column">
+				      <img class="demo cursor" src="img/before_pcb.jpg" style="width:100%" onclick="currentSlide(1)" alt="Initial PCB delivered by Oshpark">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/USB_LED_mistake.jpg" style="width:100%" onclick="currentSlide(2)" alt="In this picture you can see the manufactured mistakes where extra traces short the (1) USB & the (2) LEDs.">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/USB_mistake_after.jpg" style="width:100%" onclick="currentSlide(3)" alt="Here is how we proceeded to fix that manufactured mistake for the: (1) USB">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/LED_mistake_after.jpg" style="width:100%" onclick="currentSlide(4)" alt="(2) LED">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/X1_mistake.jpg" style="width:100%" onclick="currentSlide(5)" alt="Manufactured trace mistake for: Oscillator (X1)">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/X1_mistake_after.jpg" style="width:100%" onclick="currentSlide(6)" alt="How we proceeded to fix X1. Notice, we drilled a hole to disconnect a short within a layer.">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/inside_traces_after.jpg" style="width:100%" onclick="currentSlide(7)" alt="The same issue with traces inside a layer that caused extra problems around the board. Drill was necessary.">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/inside_traces_2_after.jpg" style="width:100%" onclick="currentSlide(8)" alt="Extra copper that was making short to neighbor pins.">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/U11_mistake.jpg" style="width:100%" onclick="currentSlide(9)" alt="Two ESD chips had the same manufactured trace issue. U11 & U13">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="img/U11_mistake_after.jpg" style="width:100%" onclick="currentSlide(10)" alt="How we proceeded to fix it.">
+				    </div>
+				  </div>
+				</div>
+				<script>
+					var slideIndex = 1;
+					showSlides(slideIndex);
+
+					// Next/previous controls
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+
+					// Thumbnail image controls
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("demo");
+					  var captionText = document.getElementById("caption");
+					  if (n > slides.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";
+					  dots[slideIndex-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex-1].alt;
+					}
+				</script>
 			</article>
 			<article>
 				<h2><strong>Tutorial: </strong><i class="fa fa-film"></i></h2>
@@ -98,7 +231,6 @@
 				src="https://drive.google.com/file/d/1zzi9RqkScwrGy50OoYHbhMTKpgJ7_hTn/preview">
 				</iframe>
 			</article>
-
 		</main>
 		<aside>
 			<div></div>
